@@ -11,6 +11,6 @@ helm install $RELEASE \
   --set nfs.server=master \
   --set nfs.path=/srv/nfs/kubedata \
   --set storageClass.name=nfs \
-  --set storageClass.defaultClass=true \
+  --set storageClass.defaultClass=false \
   stable/nfs-client-provisioner
 
