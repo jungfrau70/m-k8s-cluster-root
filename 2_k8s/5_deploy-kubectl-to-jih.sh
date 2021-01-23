@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf /home/jih/.kube
-mkdir -p /home/jih/.kube
-sudo cp -i /etc/kubernetes/admin.conf /home/jih/.kube/config
-sudo chown -R jih:jih /home/jih/.kube
+rm -rf /home/ubuntu/.kube
+mkdir -p /home/ubuntu/.kube
+sudo cp -i /etc/kubernetes/admin.conf /home/ubuntu/.kube/config
+sudo chown -R ubuntu:ubuntu /home/ubuntu/.kube
