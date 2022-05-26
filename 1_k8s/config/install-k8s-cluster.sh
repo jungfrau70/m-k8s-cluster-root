@@ -12,4 +12,3 @@ kubectl cluster-info
 kubectl create -f https://raw.githubusercontent.com/cilium/cilium/v1.6/install/kubernetes/quick-install.yaml
 
 kubectl get pods -n kube-system --selector=k8s-app=cilium
-
